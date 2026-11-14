@@ -72,3 +72,26 @@ build host stays as installed.
 ## Thanks
 
 Everyone this project builds on: [ATTRIBUTIONS.md](https://github.com/p1ngb4ck/esphome/blob/dev/ATTRIBUTIONS.md).
+
+## Branch structure
+
+Each `pr/` branch holds one part of this topic on top of upstream and says in its `BRANCH.md` what it is based on. `main` holds all of them.
+
+| Branch | Based on |
+|---|---|
+| `pr/esp32-board-s31-function-coreboard-1` | upstream only |
+| `pr/esp32-boot-ram-probe` | upstream only |
+| `pr/esp32-cert-bundle-sha512` | upstream only |
+| `pr/esp32-chip-revision` | `pr/esp32-warn-once` |
+| `pr/esp32-components-in-psram` | upstream only |
+| `pr/esp32-coredump` | `pr/esp32-chip-revision` |
+| `pr/esp32-flash-detect` | `pr/esp32-chip-revision` |
+| `pr/esp32-idf-component-override-path` | upstream only |
+| `pr/esp32-idf61-hosted-sdkconfig` | upstream only |
+| `pr/esp32-loop-task-core` | upstream only |
+| `pr/esp32-p4-restart-fix` | upstream only |
+| `pr/esp32-p4-small-alloc-retention` | upstream only |
+| `pr/esp32-system-info` | upstream only |
+| `pr/esp32-warn-once` | upstream only |
+| `pr/psram-ext-stack-guaranteed` | upstream only |
+| `pr/psram-p4-speeds` | upstream only |
